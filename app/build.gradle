@@ -1,0 +1,38 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion project.ext.COMPILE_SDK_VERSION
+    buildToolsVersion project.ext.BUILD_TOOL_VERSION
+
+    sourceSets {
+        main {
+            jniLibs.srcDir('libs')
+            jni.srcDirs = []
+        }
+    }
+    defaultConfig {
+        applicationId "cn.imhtb.ar.travel"
+        minSdkVersion 15
+        targetSdkVersion 29
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    android{
+        configurations {
+            all*.exclude group: 'com.android.support', module: 'support-annotations'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: '*.jar')
+    implementation 'com.flyco.tablayout:FlycoTabLayout_Lib:2.1.2@aar'
+    implementation 'com.android.support:appcompat-v7:23.1.1'
+
+}

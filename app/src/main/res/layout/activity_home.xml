@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".mapcam.HomeActivity"
+    android:orientation="vertical">
+
+    <cn.imhtb.ar.travel.fregment.NotScrollViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/tab_layout"
+        />
+
+
+    <com.flyco.tablayout.CommonTabLayout
+        android:id="@+id/tab_layout"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:background="#F0F0F0"
+        app:tl_iconHeight="20dp"
+        app:tl_indicator_color="#FC2B2B"
+        app:tl_indicator_height="1dp"
+        app:tl_indicator_style="NORMAL"
+        app:tl_textSelectColor="#883939"
+        app:tl_textUnselectColor="@android:color/black"
+        app:tl_textsize="10sp" />
+
+</RelativeLayout>

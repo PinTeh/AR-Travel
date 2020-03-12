@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="subTitle">
+        <item>aa</item>
+        <item>vv</item>
+        <item>cc</item>
+        <item>dd</item>
+    </string-array>
+
+    <integer-array name="select">
+        <item>@mipmap/home_select</item>
+        <item>@mipmap/user_select</item>
+    </integer-array>
+
+    <integer-array name="unSelect">
+        <item>@mipmap/home</item>
+        <item>@mipmap/user</item>
+    </integer-array>
+
+</resources>
