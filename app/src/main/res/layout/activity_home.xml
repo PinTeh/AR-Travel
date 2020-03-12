@@ -20,7 +20,7 @@
         android:layout_width="match_parent"
         android:layout_height="45dp"
         android:layout_alignParentBottom="true"
-        android:background="#F0F0F0"
+        android:background="#FFFFFF"
         app:tl_iconHeight="20dp"
         app:tl_indicator_color="#FC2B2B"
         app:tl_indicator_height="1dp"
