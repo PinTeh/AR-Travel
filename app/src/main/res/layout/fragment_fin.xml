@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="#ECECEC"
-    tools:context=".fregment.FinFragment">
+    tools:context=".fragment.FinFragment">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -24,6 +24,7 @@
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/ll_nav"
         android:layout_width="match_parent"
         android:layout_height="250dp"
         android:paddingLeft="20dp"
@@ -50,6 +51,7 @@
 
 
     <LinearLayout
+        android:id="@+id/ll_more"
         android:layout_width="match_parent"
         android:layout_height="250dp"
         android:paddingLeft="20dp"

@@ -7,7 +7,7 @@
     tools:context=".mapcam.HomeActivity"
     android:orientation="vertical">
 
-    <cn.imhtb.ar.travel.fregment.NotScrollViewPager
+    <cn.imhtb.ar.travel.fragment.NotScrollViewPager
         android:id="@+id/viewPager"
         android:layout_width="match_parent"
         android:layout_height="match_parent"

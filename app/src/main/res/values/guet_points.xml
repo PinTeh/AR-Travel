@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="tag">
+        <item>十七教</item>
+        <item>十六教</item>
+        <item>十四教</item>
+        <item>十三教</item>
+        <item>十一教</item>
+        <item>办公大楼</item>
+        <item>图书馆</item>
+        <item>六教</item>
+        <item>五教</item>
+        <item>四教</item>
+        <item>科技楼</item>
+        <item>男生宿舍A区</item>
+        <item>男生宿舍B区</item>
+        <item>相思湖</item>
+    </array>
+    <array name="latitude">
+        <item>110.425173</item>
+        <item>110.42529</item>
+        <item>110.423803</item>
+        <item>110.42356</item>
+        <item>110.424382</item>
+        <item>110.426673</item>
+        <item>110.425339</item>
+        <item>110.423152</item>
+        <item>110.423214</item>
+        <item>110.423673</item>
+        <item>110.425815</item>
+        <item>110.422069</item>
+        <item>110.422146</item>
+        <item>110.427522</item>
+    </array>
+    <array name="longitude">
+        <item>25.315772</item>
+        <item>25.316303</item>
+        <item>25.316948</item>
+        <item>25.31736</item>
+        <item>25.318042</item>
+        <item>25.317642</item>
+        <item>25.319496</item>
+        <item>25.320055</item>
+        <item>25.320574</item>
+        <item>25.3209</item>
+        <item>25.321055</item>
+        <item>25.323472</item>
+        <item>25.325121</item>
+        <item>25.325121</item>
+        <item>25.319022</item>
+    </array>
+</resources>

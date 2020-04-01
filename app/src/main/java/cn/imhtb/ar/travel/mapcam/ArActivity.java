@@ -11,6 +11,7 @@ import android.widget.Toast;
 
 import java.util.ArrayList;
 
+import cn.imhtb.ar.travel.ArApplication;
 import cn.imhtb.ar.travel.R;
 import map.baidu.ar.ArPageListener;
 import map.baidu.ar.camera.SimpleSensor;
@@ -34,7 +35,7 @@ public class ArActivity extends FragmentActivity implements ArPageListener {
         super.onCreate(savedInstanceState);
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.activity_find_ar);
-        poiInfos = (ArrayList<PoiInfoImpl>) MainActivity.poiInfos;
+        poiInfos = (ArrayList<PoiInfoImpl>) ArApplication.poiInfos;
         mArPoiItemRl = (RelativeLayout) findViewById(R.id.ar_poi_item_rl);
         mArPoiItemRl.setVisibility(View.VISIBLE);
         initView();

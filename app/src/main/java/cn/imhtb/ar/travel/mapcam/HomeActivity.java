@@ -14,9 +14,10 @@ import com.flyco.tablayout.listener.OnTabSelectListener;
 import java.util.ArrayList;
 
 import cn.imhtb.ar.travel.R;
-import cn.imhtb.ar.travel.fregment.FinFragment;
-import cn.imhtb.ar.travel.fregment.FooFragment;
-import cn.imhtb.ar.travel.fregment.NotScrollViewPager;
+import cn.imhtb.ar.travel.fragment.FinFragment;
+import cn.imhtb.ar.travel.fragment.FooFragment;
+import cn.imhtb.ar.travel.fragment.NotScrollViewPager;
+import cn.imhtb.ar.travel.fragment.PointsFragment;
 
 ;
 
@@ -28,7 +29,7 @@ public class HomeActivity extends AppCompatActivity {
     TypedArray selected;
 
     private ArrayList<Fragment> mFragments = new ArrayList<>();
-    private String[] titles = {"首页", "更多"};
+    private String[] titles = {"首页","锚点", "更多"};
     private NotScrollViewPager viewPager;
     private ArrayList<CustomTabEntity> customTabEntities = new ArrayList<>();
 
@@ -50,6 +51,7 @@ public class HomeActivity extends AppCompatActivity {
         }
 
         mFragments.add(new FinFragment());
+        mFragments.add(new PointsFragment());
         mFragments.add(new FooFragment());
 
         CommonTabLayout tabLayout = (CommonTabLayout) findViewById(R.id.tab_layout);
