@@ -76,20 +76,36 @@
         <item>25.319022</item>
     </string-array>
 
+<!--    <string-array name="gxsf_tag">-->
+<!--        <item>十七教</item>-->
+<!--        <item>十六教</item>-->
+<!--        <item>十四教</item>-->
+<!--    </string-array>-->
+<!--    <string-array name="gxsf_latitude">-->
+<!--        <item>110.425173</item>-->
+<!--        <item>110.42529</item>-->
+<!--        <item>110.423803</item>-->
+<!--        <item>110.427522</item>-->
+<!--    </string-array>-->
+<!--    <string-array name="gxsf_longitude">-->
+<!--        <item>25.315772</item>-->
+<!--        <item>25.316303</item>-->
+<!--        <item>25.316948</item>-->
+<!--    </string-array>-->
+
     <string-array name="gxsf_tag">
-        <item>十七教</item>
-        <item>十六教</item>
-        <item>十四教</item>
+        <item>钦州矿务局</item>
+        <item>钦州碧桂园</item>
+        <item>翠湖田园</item>
     </string-array>
     <string-array name="gxsf_latitude">
-        <item>110.425173</item>
-        <item>110.42529</item>
-        <item>110.423803</item>
-        <item>110.427522</item>
+        <item>108.644087</item>
+        <item>108.637404</item>
+        <item>108.643153</item>
     </string-array>
     <string-array name="gxsf_longitude">
-        <item>25.315772</item>
-        <item>25.316303</item>
-        <item>25.316948</item>
+        <item>22.064994</item>
+        <item>22.025598</item>
+        <item>22.074774</item>
     </string-array>
 </resources>

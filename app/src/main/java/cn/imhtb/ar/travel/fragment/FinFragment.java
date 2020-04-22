@@ -9,23 +9,11 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.view.Window;
 import android.widget.LinearLayout;
-import android.widget.Toast;
 
-
-import java.util.ArrayList;
-import java.util.List;
-
-import cn.imhtb.ar.travel.ArApplication;
 import cn.imhtb.ar.travel.R;
 import cn.imhtb.ar.travel.mapcam.ArActivity;
-import cn.imhtb.ar.travel.mapcam.MainActivity;
 import cn.imhtb.ar.travel.mapcam.MapActivity;
-import cn.imhtb.ar.travel.mapcam.PermissionsChecker;
-import map.baidu.ar.model.ArLatLng;
-import map.baidu.ar.model.ArPoiInfo;
-import map.baidu.ar.model.PoiInfoImpl;
 
 /**
  * A simple {@link Fragment} subclass.
